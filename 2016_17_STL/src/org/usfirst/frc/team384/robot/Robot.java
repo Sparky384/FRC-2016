@@ -21,10 +21,10 @@ public class Robot extends IterativeRobot {
 
 	public static Joystick pilot = new Joystick(0);
 	public static Joystick coPilot = new Joystick(1);
+    public static CANTalon leftMotor0 = new CANTalon(RobotMap.LEFT_CIM_MOTOR_0_CH);
+    public static CANTalon leftMotor1 = new CANTalon(RobotMap.LEFT_CIM_MOTOR_1_CH);
 	public static CANTalon rightMotor0 = new CANTalon(RobotMap.RIGHT_CIM_MOTOR_0_CH);
 	public static CANTalon rightMotor1 = new CANTalon(RobotMap.RIGHT_CIM_MOTOR_1_CH);
-	public static CANTalon leftMotor0 = new CANTalon(RobotMap.LEFT_CIM_MOTOR_0_CH);
-	public static CANTalon leftMotor1 = new CANTalon(RobotMap.LEFT_CIM_MOTOR_1_CH);
 	public static CANTalon intakeWheelsMotor = new CANTalon(RobotMap.INTAKE_WHEELS_MOTOR_CH);
 	public static CANTalon shooterMotor = new CANTalon(RobotMap.SHOOTER_MOTOR_CH);
 	public static DoubleSolenoid gearboxSolenoid = new DoubleSolenoid(RobotMap.GEARBOX_SOLENOID_CH_A, RobotMap.GEARBOX_SOLENOID_CH_B);

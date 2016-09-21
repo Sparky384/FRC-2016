@@ -8,27 +8,12 @@ public class RobotMap {
 	public static final double DRIVE_ENCODER_PULSES_PER_REV = 128.0;
 
 	/****** Motor controllers (all CANTalons) ******/
-	/*
-	 * A ROBOT VALUES
-	 */
-	//public static final int RIGHT_CIM_MOTOR_0_CH = 1;
-	//public static final int RIGHT_CIM_MOTOR_1_CH = 2;
-	//public static final int LEFT_CIM_MOTOR_0_CH = 3;
-	//public static final int LEFT_CIM_MOTOR_1_CH = 4;
-	//public static final int SHOOTER_MOTOR_CH = 5;
-	//public static final int INTAKE_WHEELS_MOTOR_CH = 6;
-	/* A ROBOT VALUES */
-
-	/*
-	 * B ROBOT VALUES TODO HEY make these match whydontcha??
-	 */
+    public static final int LEFT_CIM_MOTOR_0_CH = 1;
+    public static final int LEFT_CIM_MOTOR_1_CH = 2;
 	public static final int RIGHT_CIM_MOTOR_0_CH = 3;
 	public static final int RIGHT_CIM_MOTOR_1_CH = 4;
-	public static final int LEFT_CIM_MOTOR_0_CH = 1;
-	public static final int LEFT_CIM_MOTOR_1_CH = 2;
 	public static final int SHOOTER_MOTOR_CH = 5;
 	public static final int INTAKE_WHEELS_MOTOR_CH = 6;
-	/* B ROBOT VALUES */
 
 	public static final double INTAKE_WHEELS_MOTOR_EJECT_PWR = 1.0;
 	public static final double INTAKE_WHEELS_MOTOR_ACQUIRE_PWR = 1.0;
