@@ -8,27 +8,12 @@ public class RobotMap {
     public static final double DRIVE_ENCODER_PULSES_PER_REV = 128.0;
 
     /****** Motor controllers (all CANTalons) ******/
-    /*
-     * A ROBOT VALUES
-     */
-    //public static final int RIGHT_CIM_MOTOR_0_CH = 1;
-    //public static final int RIGHT_CIM_MOTOR_1_CH = 2;
-    //public static final int LEFT_CIM_MOTOR_0_CH = 3;
-    //public static final int LEFT_CIM_MOTOR_1_CH = 4;
-    //public static final int SHOOTER_MOTOR_CH = 5;
-    //public static final int INTAKE_WHEELS_MOTOR_CH = 6;
-    /* A ROBOT VALUES */
-
-    /*
-     * B ROBOT VALUES TODO HEY make these match whydontcha??
-     */
-    public static final int RIGHT_CIM_MOTOR_0_CH = 3;
-    public static final int RIGHT_CIM_MOTOR_1_CH = 4;
     public static final int LEFT_CIM_MOTOR_0_CH = 1;
     public static final int LEFT_CIM_MOTOR_1_CH = 2;
+    public static final int RIGHT_CIM_MOTOR_0_CH = 3;
+    public static final int RIGHT_CIM_MOTOR_1_CH = 4;
     public static final int SHOOTER_MOTOR_CH = 5;
     public static final int INTAKE_WHEELS_MOTOR_CH = 6;
-    /* B ROBOT VALUES */
 
     public static final double INTAKE_WHEELS_MOTOR_EJECT_PWR = 1.0;
     public static final double INTAKE_WHEELS_MOTOR_ACQUIRE_PWR = 1.0;
@@ -41,12 +26,12 @@ public class RobotMap {
     /*
      * A Robot Values
      */
-    //	public static final int GEARBOX_SOLENOID_CH_A = 2;
-    //	public static final int GEARBOX_SOLENOID_CH_B = 1;
-    //	public static final int INTAKE_SOLENOID_CH_A = 5;
-    //	public static final int INTAKE_SOLENOID_CH_B = 4;
-    //	public static final int SHOOTER_LIMIT_SW_CH = 1;
-    //	public static final int FLASHLIGHT_DIO_CH = 0;
+    //  public static final int GEARBOX_SOLENOID_CH_A = 2;
+    //  public static final int GEARBOX_SOLENOID_CH_B = 1;
+    //  public static final int INTAKE_SOLENOID_CH_A = 5;
+    //  public static final int INTAKE_SOLENOID_CH_B = 4;
+    //  public static final int SHOOTER_LIMIT_SW_CH = 1;
+    //  public static final int FLASHLIGHT_DIO_CH = 0;
     /* A ROBOT VALUES */
 
     /*
@@ -61,10 +46,10 @@ public class RobotMap {
     /* B ROBOT VALUES */
 
     // Encoders
-    //	public static final int LEFT_ENCODER_CH_A = 4;
-    //	public static final int LEFT_ENCODER_CH_B = 5;
-    //	public static final int RIGHT_ENCODER_CH_A = 2;
-    //	public static final int RIGHT_ENCODER_CH_B = 3;
+    //  public static final int LEFT_ENCODER_CH_A = 4;
+    //  public static final int LEFT_ENCODER_CH_B = 5;
+    //  public static final int RIGHT_ENCODER_CH_A = 2;
+    //  public static final int RIGHT_ENCODER_CH_B = 3;
 
     // Pilot Joystick buttons
     public static final int PILOT_SAFETY_INTERLOCK_BTN = 1;
